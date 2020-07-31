@@ -289,7 +289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168474088}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.185, y: -4.37, z: -12}
+  m_LocalPosition: {x: 0.68499994, y: -3.98, z: -12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 919226767}
@@ -384,7 +384,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.4256434
+  orthographic size: 5.7772727
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -408,7 +408,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.185, y: -4.37, z: -12}
+  m_LocalPosition: {x: 0.68499994, y: -3.98, z: -12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -427,6 +427,7 @@ GameObject:
   - component: {fileID: 594158508}
   - component: {fileID: 594158507}
   - component: {fileID: 594158506}
+  - component: {fileID: 594158511}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Untagged
@@ -596,6 +597,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &594158511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594158505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63592578aff7625409809b1635882be9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cloudParticlePrefab: {fileID: 5647103746882992795, guid: c059c85672481db4d95c35daec7d5af8,
+    type: 3}
 --- !u!1 &628435290
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,6 +754,7 @@ GameObject:
   - component: {fileID: 804418307}
   - component: {fileID: 804418306}
   - component: {fileID: 804418305}
+  - component: {fileID: 804418310}
   m_Layer: 0
   m_Name: Monster (1)
   m_TagString: Untagged
@@ -908,6 +924,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &804418310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804418304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63592578aff7625409809b1635882be9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cloudParticlePrefab: {fileID: 5647103746882992795, guid: c059c85672481db4d95c35daec7d5af8,
+    type: 3}
 --- !u!1 &872678211
 GameObject:
   m_ObjectHideFlags: 0
@@ -943,7 +973,7 @@ MonoBehaviour:
   m_Targets:
   - target: {fileID: 1154734766}
     weight: 1
-    radius: 1
+    radius: 2
   - target: {fileID: 594158510}
     weight: 1
     radius: 2
@@ -958,7 +988,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 872678211}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.185, y: -4.37, z: 0}
+  m_LocalPosition: {x: 0.68499994, y: -3.98, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
